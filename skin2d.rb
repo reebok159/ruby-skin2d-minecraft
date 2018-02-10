@@ -16,8 +16,6 @@ class Skin2d
   end
 
   def combined_image(scale = 1)
-    newWidth = 37 * scale
-    newHeight = 32 * scale
     #imagefilledrectangle
     #TODO: white to rgb
     @new_image = ImageList.new.new_image(37, 32) { self.background_color = "white"}
